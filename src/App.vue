@@ -1,9 +1,17 @@
-<script setup>
-
+<script setup lang="ts">
+import Nav from './components/Nav.vue';
 </script>
 
 <template>
-  <h1>Hello world!</h1>
+	<header>
+		<Nav />
+	</header>
+	<main>
+
+	</main>
+	<footer>
+
+	</footer>
 </template>
 
 <style scoped>
