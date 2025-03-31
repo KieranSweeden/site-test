@@ -1,24 +1,17 @@
 <script setup lang="ts">
 const props = defineProps<{
-  href: string;
-  text: string;
+	href: string;
+	text: string;
 }>();
+
+import { RouterLink } from 'vue-router';
 
 </script>
 
 <template>
-<a :href="props.href">{{ props.text }}</a>
+	<RouterLink :to="props.href">{{ props.text }}</RouterLink>
 </template>
 
 <style scoped>
-a {
-  text-decoration: none;
-  color: var(--primary-text-color);
-	font-size: 1.2rem;
-  font-weight: bold;
-}
 
-a:hover {
-  text-decoration: underline;
-}
 </style>
