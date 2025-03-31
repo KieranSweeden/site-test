@@ -13,7 +13,3 @@ import Nav from './components/Nav.vue';
 
 	</footer>
 </template>
-
-<style scoped>
-
-</style>

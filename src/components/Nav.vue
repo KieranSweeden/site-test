@@ -3,8 +3,8 @@ import Link from './Link.vue';
 
 const links = [
 	{ href: '/', text: 'Home' },
-	{ href: '/site-test/about', text: 'About' },
-	{ href: '/site-test/contact', text: 'Contact' },
+	{ href: '/about', text: 'About' },
+	{ href: '/contact', text: 'Contact' },
 ];
 
 </script>
@@ -19,7 +19,3 @@ const links = [
 		</ul>
 	</nav>
 </template>
-
-<style>
-
-</style>
